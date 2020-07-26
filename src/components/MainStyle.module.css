@@ -1,0 +1,57 @@
+::-webkit-scrollbar { /* chrome based */
+    width: 0px;  /* ширина scrollbar'a */
+    background: transparent;  /* опционально */
+}
+
+.main_offer{
+    padding-top: 35px;
+    width:auto;
+    height:70px;
+    color:white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 16px;
+    text-transform: uppercase;
+    background: #000;
+    text-align: center;
+    justify-content: center;
+}
+
+.main_content{
+    height: 100%;
+    display: flex;
+    margin-left:25%;
+    margin-right: 25%;
+    width:auto;
+    justify-content: space-between;
+    padding-top: 5%;
+}
+
+.main_content_picture{
+    z-index: -999;
+    height: initial;
+    top: 0;
+    position: absolute;
+}
+.main_content_text {
+    color: white;
+    background: rgba(205, 51, 123, 0.51);
+    padding:10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+
+.main_content_block{
+    height: 100%;
+    margin:10px;
+    position: relative;
+    width:auto;
+
+
+}
