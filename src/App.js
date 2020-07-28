@@ -3,9 +3,9 @@ import MainComponent from './components/main_component';
 
 
 function App() {
-  return (
- <MainComponent/>
-  );
+    return (
+        <MainComponent/>
+    );
 }
 
 export default App;

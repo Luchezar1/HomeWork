@@ -1,7 +1,4 @@
-::-webkit-scrollbar { /* chrome based */
-    width: 0px;  /* ширина scrollbar'a */
-    background: transparent;  /* опционально */
-}
+
 
 .main_offer{
     padding-top: 35px;
@@ -22,10 +19,11 @@
 .main_content{
     height: 100%;
     display: flex;
+    flex-wrap: wrap;
     margin-left:25%;
     margin-right: 25%;
     width:auto;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding-top: 5%;
 }
 
@@ -51,7 +49,7 @@
     height: 100%;
     margin:10px;
     position: relative;
-    width:auto;
+    width:150px;
 
 
 }

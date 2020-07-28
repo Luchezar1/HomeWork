@@ -2,10 +2,11 @@ import React from 'react';
 import HeaderComponent from './header_component';
 import hairstyle from '../image/hairstyle.png';
 import HeaderPages from '../components/header_pages';
-import m from './MainStyle.module.css';
+import m from '../stylesheets/MainStyle.module.css';
 import mainPicture1 from '../image/mainPicture1.png';
 import mainPicture2 from '../image/mainPicture2.png';
 import mainPicture3 from '../image/mainPicture3.png';
+import MainPreference from "./main_preference";
 
 const MainComponent = ()=>{
     return(
@@ -75,7 +76,7 @@ const MainComponent = ()=>{
                    <img className={m.main_content_picture} src={mainPicture1}/>
                </div>
            </div>
-
+                <MainPreference/>
        </div>
     )
 }
