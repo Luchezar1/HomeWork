@@ -7,6 +7,7 @@ import mainPicture1 from '../image/mainPicture1.png';
 import mainPicture2 from '../image/mainPicture2.png';
 import mainPicture3 from '../image/mainPicture3.png';
 import MainPreference from "./main_preference";
+import MainStuff from "./main_stuff";
 
 const MainComponent = ()=>{
     return(
@@ -77,6 +78,9 @@ const MainComponent = ()=>{
                </div>
            </div>
                 <MainPreference/>
+                <br/>
+                <br/>
+                <MainStuff/>
        </div>
     )
 }

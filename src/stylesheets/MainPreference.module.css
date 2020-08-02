@@ -1,15 +1,13 @@
 
-.Pref_our_pref{
+.Pref_our_pref {
     height: auto;
     padding: 20px;
     background-color: #CD337B;
-    margin-block-end:100px;
+    margin-block-end: 100px;
     justify-content: center;
 }
 
 .Pref_text {
-
-    font-size: 50px;
     text-align: center;
     font-family: Roboto;
     font-style: normal;
@@ -20,13 +18,13 @@
     margin-block-end: 5%;
 }
 
-.Pref_image_block{
+.Pref_image_block {
     flex-wrap: wrap;
     justify-content: space-evenly;
     display: flex;
 }
 
-.Pref_image{
+.Pref_image {
     padding: 6px;
     border: 5px solid white;
     border-radius: 50%;
@@ -34,9 +32,20 @@
     text-align: center;
 }
 
-.Pref_image_content{
+.Pref_image_content {
+    object-fit: scale-down;
     -webkit-box-orient: vertical;
     display: -webkit-box;
     text-align: center;
     max-width: 200px;
+}
+
+/*------------------------------------*/
+
+.Pref_image_container {
+    text-align: center;
+    padding-top: 1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

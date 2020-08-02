@@ -1,0 +1,32 @@
+
+.stuff_container {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    margin-top: 44px;
+    text-align: center;
+
+}
+
+.stuff_text {
+    height: auto;
+    min-width: 800px;
+    overflow: hidden;
+    color: #CD337B;
+}
+
+
+/*------------------------------------*/
+
+.stuff_slaider {
+    margin-top: 1em;
+    display: flex;
+    margin-right: 25%;
+    margin-left: 25%;
+    background-color: #fff;
+    height: auto;
+    min-width: 800px;
+    overflow: hidden;
+    justify-content:space-between;
+}
