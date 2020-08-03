@@ -1,0 +1,22 @@
+a{
+    margin:10px;
+}
+.footer_main_block {
+    padding-left: 25%;
+    padding-right: 25%;
+    width: auto;
+    height: 128px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #CD337B;
+}
+
+.footer_info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_social_network{
+
+}

@@ -8,6 +8,8 @@ import mainPicture2 from '../image/mainPicture2.png';
 import mainPicture3 from '../image/mainPicture3.png';
 import MainPreference from "./main_preference";
 import MainStuff from "./main_stuff";
+import footerMap from '../image/footerMap.png';
+import FooterComponent from "./footer_component";
 
 const MainComponent = ()=>{
     return(
@@ -81,6 +83,10 @@ const MainComponent = ()=>{
                 <br/>
                 <br/>
                 <MainStuff/>
+           <br/>
+           <br/>
+           <img src={footerMap} alt=""/>
+           <FooterComponent/>
        </div>
     )
 }
